@@ -604,4 +604,6 @@ Note that the `<input>` tag is important. It provides the user a field where the
 
 Thank you for your attention. I hope this course has been as informative as you expected. There is more to it, but covering every bit of HTML would be distracting. I have picked up the most important tags which you will end up using sooner or later.
 
-For more, follow me on Instagram [@cesarcode.init](https://www.instagram.com/cesarcode.init/)
+Instagram: [@cesarcode.init](https://www.instagram.com/cesarcode.init/)
+
+Email: [kaissar.mouelhi@outlook.com]()
