@@ -473,7 +473,7 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
   <label>First name:</label>
 
   <!-- Inputs -->
-  <!-- Inputs act like a placeholder where you can insert some data. -->
+  <!-- Inputs act like a field where you can type some data. -->
 
   <!-- Inputs with a type of text are designed to have text in them. -->
   <input type="text" />
@@ -556,7 +556,7 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
 </datalist>
 ```
 
-Note that the `<input>` tag is important. It provides the
+Note that the `<input>` tag is important. It provides the user a field where they can type their own option.
 
 `value`, as it may seem, attribute adds a value to the options. There is another way to it, excluding the `value` attribute:
 
