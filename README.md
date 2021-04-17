@@ -48,7 +48,6 @@ HTML skeleton triggers the environment where you are going to work. Before start
 <html>
   <head>
     <!-- We use <meta> tags to add data that characterises a webpage. -->
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
