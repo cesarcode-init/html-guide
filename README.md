@@ -253,13 +253,13 @@ We use the attribute `style` to add some styles to the elements.
 
 ```html
 <p style="color: red;">I'm a paragraph and my color is red</p>
-
-<!-- Note that there are three ways of adding styles to our webpage:
-        1. Inline style which is achieved through using the attribute style.
-        2. Style tag inside the head tag.
-        3. Separate stylesheets.
- -->
 ```
+
+Note that there are three ways of adding styles to a webpage:
+
+- Inline style. This is achieved through employing the attribute `style` inside a tag element.
+- Style tag. This tag is implemented inside the `<head>` tag.
+- Separate stylesheets.
 
 7. Title
 
