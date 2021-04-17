@@ -154,7 +154,7 @@ We use `<audio>` tags to insert audios.
 
 1. Ordered Lists
 
-Ordered lists are number based lists. They go in a chronological order.
+Ordered lists are number-based lists. They go in chronological order.
 
 ```html
 <ol>
@@ -166,7 +166,7 @@ Ordered lists are number based lists. They go in a chronological order.
 
 2. Unordered Lists
 
-Unordered lists are bullet point based. They are not organised in a chronological order.
+Unordered lists are bullet point based. They are not organised in chronological order.
 
 ```html
 <ul>
@@ -178,7 +178,7 @@ Unordered lists are bullet point based. They are not organised in a chronologica
 
 3. Definition Lists
 
-Definition lists are description based lists. They contain a description and terms attached to it.
+Definition lists are description based lists. They contain descriptions and terms attached to them.
 
 ```html
 <dl>
@@ -216,7 +216,7 @@ We use a `class` attribute when some elements share common styles. We can also r
 </p>
 
 <p class="red-text">
-  I'm another tag which shares the same style with my neighbour tag
+  I'm another tag that shares the same style as my neighbour tag
 </p>
 ```
 
@@ -282,7 +282,7 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
 
 ### Meta
 
-`<meta>` tags contain special data about a webpage
+`<meta>` tags contain special data about a webpage.
 
 ```html
 <meta charset="UTF-8" />
@@ -550,15 +550,15 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
 ```html
 <input list="colors" />
 <datalist id="colors">
-  <option value="red"></option>
-  <option value="blue"></option>
-  <option value="black"></option>
+  <option value="red">
+  <option value="blue">
+  <option value="black">
 </datalist>
 ```
 
-Note that the `<input>` tag is important. It provides the user a field where they can type their own option.
+Note that the `<input>` tag is important. It provides the user with a field where they can type their own option.
 
-`value`, as it may seem, attribute adds a value to the options. There is another way to it, excluding the `value` attribute:
+`value` attribute adds a value to the options. There is another way to it, excluding the `value` attribute:
 
 ```html
 <input list="otherColors" />
