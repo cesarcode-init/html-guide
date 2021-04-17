@@ -548,20 +548,24 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
 `<datalist>` tags allow you to create a dropdown list with options like `<select>` tags; however, the difference is that `<datalist>` tags allow users to add their own options if they are not okay with the recommended ones.
 
 ```html
-<datalist>
+<input list="colors" />
+<datalist id="colors">
   <option value="red"></option>
   <option value="blue"></option>
   <option value="black"></option>
 </datalist>
 ```
 
+Note that the `<input>` tag is important. It provides the
+
 `value`, as it may seem, attribute adds a value to the options. There is another way to it, excluding the `value` attribute:
 
 ```html
-<datalist>
-  <option>red</option>
-  <option>blue</option>
-  <option>black</option>
+<input list="otherColors" />
+<datalist id="otherColors">
+  <option>yellow</option>
+  <option>brown</option>
+  <option>green</option>
 </datalist>
 ```
 

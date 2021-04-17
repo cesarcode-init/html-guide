@@ -1,23 +1,27 @@
-<!-- `DOCTYPE html` refers to the declaration of the HTML version you are using which is basically HTML5. -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- We use <meta> tags to add data that characterises a webpage. -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <title> tag allows you to add the website's name. -->
     <title>Webpage</title>
 
-    <!-- <link> tag lets you add stylesheets where you can add styles to the webpage. -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- 
+        # You can comment this out. It will override the stylesheet below
+
+        <style>
+        p {
+            color: red;
+        }
+    </style> 
+-->
 </head>
 
 <body>
-    <!-- Inside the <body> tag, we add all that has to do with the webpage content. -->
 
     <!-- HEADINGS -->
     <h1>I am a title</h1>
@@ -38,25 +42,10 @@
         <source src="olaf.mp4" type="video/mp4" />
     </video>
 
-    <!-- video tags can have multiple attributes to give the videos some functionalities like:
-          
-              1. 'controls' to make the video controllable by the user.
-              2. 'muted' to make the video in silent mode.
-              3. 'autoplay' as the attribute suggests to make the video play when a webpage first loads
-              4. 'poster='thumbnail.jpg' to place a poster before the video kicks off.
-      -->
-
     <!-- MEDIA -- AUDIOS -->
     <audio controls>
         <source src="olaf.mp3" type="audio/mpeg" />
     </audio>
-
-    <!-- audio tags can have multiple attributes to give the audios some functionalities like:
-          
-              1. 'controls' to make the audio controllable by the user.
-              2. 'muted' to make the audio in silent mode.
-              3. 'autoplay' as the attribute suggests to make the audio play when a webpage first loads.
-      -->
 
     <!-- LISTS -- ORDERED LISTS -->
     <ol>
@@ -79,6 +68,172 @@
         <dt>Item 2</dt>
         <dd>Item 2 is a fantastic product</dd>
     </dl>
+
+    <!-- ATTRIBUTES -- IDS -->
+    <p id="unique">
+        I have an id attribute. You can only select me because I'm unique.
+    </p>
+
+    <!-- ATTRIBUTES -- CLASSES -->
+    <p class="red-text">
+        I have a class. That doesn't make me special. Other tags and I have a common
+        class because we share common styles.
+    </p>
+
+    <p class="red-text">
+        I'm another tag which shares the same style with my neighbour tag
+    </p>
+
+    <!-- ATTRIBUTES -- HYPER-REFERENCE -->
+    <a href="http://www.domain.com">I have got a hyper-reference (href) on me so you can go to that link</a>
+
+    <!-- ATTRIBUTES -- SOURCE -->
+    <img src="cat.png" />
+
+    <!-- ATTRIBUTES -- ALTERNATIVE -->
+    <img src="cats.png" alt="this is a cat" />
+
+    <!-- ATTRIBUTES -- STYLE -->
+    <p style="color: red;">I'm a paragraph and my color is red</p>
+
+    <!-- ATTRIBUTES -- TITLE -->
+    <a href="http://www.youtube.com" title="go to YouTube">YouTube</a>
+
+    <!-- HEADER -->
+    <header>
+        <p>Hello I am a paragraph inside a header.</p>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <p>Hello I am a paragraph inside a main.</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Hello I am a paragraph inside a footer.</p>
+    </footer>
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+    <!-- SECTIONS -->
+    <section>
+        <p>I'm inside a section</p>
+    </section>
+
+    <!-- ARTICLES -->
+    <article>
+        <p>I'm inside an article tag</p>
+    </article>
+
+    <!-- ASIDE -->
+    <aside>
+        <p>
+            I'm inside an aside tag. You will find me on the right or left side of the
+            webpage
+        </p>
+    </aside>
+
+    <!-- FIGURES -->
+    <figure>
+        <img src="parrot.jpg" alt="this is a parrot picture" />
+        <figcaption>Fig1. - Red Parrot.</figcaption>
+    </figure>
+
+    <!-- BLOCKQUOTES -->
+    <blockquote cite="http://en.wikipedia.org/wiki/Main_Page">
+        I'm a quote taken from a wikipedia page.
+    </blockquote>
+
+    <!-- SPANS -->
+    <span>I'm inside a span which makes me an inline element</span>
+
+    <!-- DIVS -->
+    <div>I'm inside a div (division) which makes me a block element</div>
+
+    <!-- TABLES -->
+    <table>
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+        </tr>
+        <tr>
+            <td>Brad</td>
+            <td>Smith</td>
+        </tr>
+    </table>
+
+    <!-- IFRAMES -->
+    <iframe src="demo.html" title="this is an Iframe"></iframe>
+
+    <!-- FORMS -->
+    <form action="#" method="POST">
+        <!-- A label tag acts like a title -->
+        <label>First name:</label>
+
+        <!-- Inputs with a type of text are designed to have text in them. -->
+        <input type="text" />
+
+        <!-- Inputs with a type of password are designed to have passwords in them that are hidden. -->
+        <input type="password" />
+
+        <!-- Inputs with a type of radio display a radio button which allows you to select one of the multiple choices. -->
+        <input type="radio" />
+
+        <!-- Inputs with a type of checkbox display a checkbox button which allows you to select one zero or more than one choice. -->
+        <input type="checkbox" />
+
+        <!-- Inputs with a type of submit display a submit button that allows you to submit the form -- it technically comes at the end of the form. -->
+        <input type="submit" />
+
+        <!-- Inputs with a type of button display a clickable button that allows you to click. -->
+        <input type="button" value="button" />
+    </form>
+
+    <!-- BUTTONS -->
+    <button type="button">click me</button>
+    <input type="button" value="click me" />
+
+    <!-- SELECT -->
+    <select>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="black">Black</option>
+    </select>
+
+    <!-- DATALIST -->
+    <input list="colors">
+    <datalist id="colors">
+        <option value="red">
+        <option value="blue">
+        <option value="black">
+    </datalist>
+
+    <input list="otherColors">
+    <datalist id="otherColors">
+        <option>yellow</option>
+        <option>brown</option>
+        <option>green</option>
+    </datalist>
+
+    <!-- TEMPLATE -->
+    <template>
+        <p>I'm hidden inside this template till a user click to display me</p>
+    </template>
+
+    <!-- SVG -->
+    <svg>
+        <rect height='100' width='100' style='fill: red;'>
+    </svg>
+
+    <!-- COMMENTS -->
+    <!-- This is a comment in HTML -->
+    <!-- Comments don't show up on a webpage -->
 
 </body>
 
