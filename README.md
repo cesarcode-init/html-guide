@@ -606,4 +606,4 @@ Thank you for your attention. I hope this course has been as informative as you 
 
 Instagram: [@cesarcode.init](https://www.instagram.com/cesarcode.init/)
 
-Email: [kaissar.mouelhi@outlook.com](kaissar.mouelhi@outlook.com)
+More: [cesar_code](https://dev.to/cesar_code)
