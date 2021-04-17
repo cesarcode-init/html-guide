@@ -599,6 +599,6 @@ Let's agree on something. This `link` is not like the hyperlinks enclosed by `<a
 <!-- Comments don't show up on a webpage -->
 ```
 
-Thank you for your attention. I hope this course has been as informative as you expected. There is more to it, but covering every bit of HTML would distracting. I have picked up the most important tags which you will end up using sooner or later.
+Thank you for your attention. I hope this course has been as informative as you expected. There is more to it, but covering every bit of HTML would be distracting. I have picked up the most important tags which you will end up using sooner or later.
 
 For more, follow me on Instagram [@cesarcode.init](https://www.instagram.com/cesarcode.init/)
