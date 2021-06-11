@@ -1,5 +1,7 @@
 # HTML Crash Course
 
+![](https://img.shields.io/github/repo-size/cesarcode-init/html-guide)
+
 ### HTML sub-guide
 
 - [HTML](#html)
