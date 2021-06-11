@@ -1,3 +1,7 @@
+<p align="left">
+<img src="https://lh3.googleusercontent.com/proxy/rOf7L0a9XKgsnZFC_fApZrvQhNz0VuqHiX0_PIe0iN2OYZtCt5kg5TVhLSM3WUOCErgQFYThLdRbgZRa6CLgHiZ20-45QV0Fa8XqVAEAymKZjzA1VxymHDZ-HhI_bLl6xurlZ1j60IIkNIJ5" data-canonical-src="https://lh3.googleusercontent.com/proxy/rOf7L0a9XKgsnZFC_fApZrvQhNz0VuqHiX0_PIe0iN2OYZtCt5kg5TVhLSM3WUOCErgQFYThLdRbgZRa6CLgHiZ20-45QV0Fa8XqVAEAymKZjzA1VxymHDZ-HhI_bLl6xurlZ1j60IIkNIJ5" />
+</p>
+
 # HTML Crash Course
 
 ![](https://img.shields.io/github/repo-size/cesarcode-init/html-guide)
